@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-
+    
  }
  
+ body{
+    background-color: white;
+ }
  .Logo_acima{
     position: absolute;
     width: 166px;
@@ -21,11 +23,22 @@
  }
 
  .ford{
-    display: block;
-    justify-self: flex-end;
+    width: 70px;
+    height: 30px;
+
  }
 
- .abaixo{
-    background-color: blue;
-    margin-top: auto;
+ footer{
+    background-color: #1b357e;
+    
+  
+
+   
+ }
+
+ #logo_abaixo{
+
+    width: 60px;
+    height: 40px;
+    
  }
