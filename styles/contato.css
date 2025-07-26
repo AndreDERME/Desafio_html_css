@@ -26,6 +26,23 @@
  
  }
  
+ .formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px;
+    width: 30%;
+    max-width: 400px;
+    margin-left: 60%;
+    
+   
+   
+
+
+ }
+
+
+
  footer{
     background-color: #1b357e;
     margin-top: 50px;
