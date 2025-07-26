@@ -13,7 +13,7 @@
  }
   body{
     background-color: white;
-    
+    overflow: hidden;
 }
 
  .Logo_acima{
@@ -27,7 +27,7 @@
    justify-content: center;
    align-items: center;
    gap: 35px;
-   margin-top: 58px;
+   margin-top: 63px;
    padding-right: 40px;
    font-family: 'Lucida Sans', sans-serif;
  
@@ -36,9 +36,11 @@
  .formulario{
     display: flex;
     flex-direction: column;
-    margin-left: 66%;
+    margin-left: 65%;
     padding: 12px;
     max-width: 400px;
+    position: relative;
+    top: -200px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
  }
@@ -46,10 +48,12 @@
  .button{
     outline: none;
     margin-top: 10px;
-    width: 90px ;
+    width: 200px ;
+    margin-left: 200px;
     background-color: var(--cor--terciaria);
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
+    
     font-size: 12px;
     font-weight: bold;
     padding: 8px;
@@ -58,29 +62,33 @@
 
  .button:hover{
     background-color: var(--cor--secundaria);
+    padding: 10px;
 
  }
  
- .button:focus{
-    outline: none !important;
+ .button button:focus{
+    outline: none;
  }
 
  .ranger_Principal{
     display: block;
     text-align: center;
     margin: auto;
-    margin-top: 18vh;
-    position: relative;
+    margin-top: 10%;
     width: 30%;
     height: 300px;
    
  }
 
+ 
+
 
 
  footer{
     background-color: #1b357e;
-    margin-top: 50px;
+    position: relative;
+    margin-top: -40px;
+  
     display: flex;
     align-items: center;
    
