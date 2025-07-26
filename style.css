@@ -17,8 +17,12 @@
  .link{
    display: flex;
    justify-content: center;
-   justify-content: space-around;
-   margin-top: 50px;
+   align-items: center;
+   gap: 35px;
+   margin-top: 58px;
+   padding-right: 40px;
+   text-decoration: none;
+   color: black;
    
  }
 
@@ -27,13 +31,16 @@
    margin-top: 10px;
    width: 70px;
    height: 30px;
-   margin-left: 1555px;
+   margin-left: 1840px;
 
  }
 
  footer{
     background-color: #1b357e;
     margin-top: 50px;
+    display: flex;
+    align-items: center;
+   
  }
 
  #logo_abaixo{
@@ -47,18 +54,20 @@
    display: block;
    text-align: center;
    margin: auto;
-   margin-top: 50px;
+   margin-top: 60px;
    
  }
 
  .paragrafo{
    display: flex;
    justify-content: center;
-   margin-top: 45px;
+   margin-top: 20px;
+   
  }
 
  .letra {
    color: aliceblue;
- }
+   margin: 20px;
 
- 
+}
+
