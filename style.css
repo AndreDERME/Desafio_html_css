@@ -25,6 +25,7 @@
  .ford{
     width: 70px;
     height: 30px;
+   
 
  }
 
@@ -44,5 +45,12 @@
    text-align: center;
    margin: auto;
    
+ }
+
+ .paragrafo{
+   display: flex;
+   justify-content: center;
    
  }
+
+ 
