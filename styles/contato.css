@@ -49,8 +49,8 @@
 
  button {
   margin-top: 10px;
-  background-color: #007bff; 
-  color: white;              
+  background-color:  #2c72cc; 
+         
   border: none;              
   padding: 15px 15px;
   width: 250px;      
@@ -63,6 +63,8 @@
 }
  .palavra_button{
   text-decoration: none;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
  
 
