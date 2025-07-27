@@ -20,6 +20,7 @@
     position: absolute;
     width: 166px;
     height: 73px;
+    margin-left: 20px;
  }
 
  .link{
@@ -86,7 +87,7 @@
  footer{
     background-color: #1b357e;
     position: relative;
-    margin-top: -55px;
+    margin-top: -61px;
     display: flex;
     align-items: center;
     position: relative;
