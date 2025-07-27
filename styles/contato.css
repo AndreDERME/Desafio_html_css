@@ -41,19 +41,20 @@
     padding: 12px;
     max-width: 400px;
     position: relative;
-    top: -200px;
+    top: -280px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
  }
 
 
  button {
+  margin-top: 10px;
   background-color: #007bff; 
   color: white;              
   border: none;              
-  padding: 10px 15px;
+  padding: 15px 15px;
   width: 250px;      
-  border-radius: 5px;        
+  border-radius: 8px;        
   font-size: 10px;           
   cursor: pointer;           
   text-align: center;   
@@ -85,12 +86,12 @@
 
 
  footer{
-    background-color: #1b357e;
+    background-color: #07226e;
     position: relative;
-    margin-top: -61px;
+    margin-top: -81px;
     display: flex;
     align-items: center;
-    position: relative;
+ 
  }
 
  #logo_abaixo{
