@@ -45,30 +45,31 @@
     
  }
 
- .button{
-    outline: none;
-    margin-top: 10px;
-    width: 200px ;
-    margin-left: 200px;
-    background-color: var(--cor--terciaria);
-    border: none;
-    border-radius: 8px;
-    
-    font-size: 12px;
-    font-weight: bold;
-    padding: 8px;
-    cursor: pointer;
+
+ button {
+  background-color: #007bff; 
+  color: white;              
+  border: none;              
+  padding: 10px 15px;
+  width: 250px;      
+  border-radius: 5px;        
+  font-size: 10px;           
+  cursor: pointer;           
+  text-align: center;   
+  margin-left: 140px;     
+ 
+}
+ .palavra_button{
+  text-decoration: none;
  }
+ 
 
  .button:hover{
-    background-color: var(--cor--secundaria);
-    padding: 10px;
+    padding: 5px;
 
  }
  
- .button button:focus{
-    outline: none;
- }
+ 
 
  .ranger_Principal{
     display: block;
@@ -80,18 +81,15 @@
    
  }
 
- 
-
 
 
  footer{
     background-color: #1b357e;
     position: relative;
-    margin-top: -40px;
-  
+    margin-top: -55px;
     display: flex;
     align-items: center;
-   
+    position: relative;
  }
 
  #logo_abaixo{
