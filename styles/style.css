@@ -19,6 +19,7 @@
     position: absolute;
     width: 166px;
     height: 73px;
+    margin-left: ;
  }
 
  .link{
@@ -43,7 +44,7 @@
 
  footer{
     background-color: var(--cor--secundaria);
-    margin-top: 50px;
+    margin-top: 18px;
     display: flex;
     align-items: center;
    
@@ -66,8 +67,7 @@
  
 
  .paragrafo{
-   display: flex;
-   justify-content: center;
+   margin-left: 40%;
    margin-top: 20px;
    
  }
