@@ -13,10 +13,12 @@
  
  body{
     background-color: var(--cor--primaria);
-    overflow: hidden;
+  
  }
+
+
  .Logo_acima{
-    position: absolute;
+    position: fixed;
     width: 166px;
     height: 73px;
     margin-left: 20px;
@@ -44,9 +46,11 @@
 
  footer{
     background-color: var(--cor--secundaria);
-    margin-top: 18px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
+    max-width: 100%;
+    padding: 15px;
    
  }
 
@@ -106,4 +110,67 @@
    padding: 5%;
 
  }
+ @media (max-width: 1024px) {
+  .header_container{
+     flex-direction: column;
+     align-items: center;
+      text-align: center;
+    
+  }
 
+  .menu_navegacao {
+      justify-content: center;
+     
+  }
+
+  .rodape_site {
+   
+     justify-content: center;
+      max-width: 100%;
+      gap: 15px;
+  }
+
+  .ford {
+    margin-top: 10px;
+   
+  }
+}
+
+ @media (max-width: 768px) {
+  .header_container {
+      justify-content: center;
+      gap: 10px;
+  }
+
+  .menu_navegacao {
+      flex-direction: column;
+      text-align: center;
+      gap: 15px;
+  }
+
+  .rodape_site {
+      
+     flex-direction: column;
+     text-align: center;
+      max-width: 100%;
+      gap: 15px;
+  }
+
+  .ford {
+    margin-top: 10px;
+   
+  }
+}
+
+@media (max-width: 480px) {
+
+  .rodape_site {
+      max-width: 100%;
+     font-size: 1em;
+  }
+
+  .ford {
+    height: auto;
+   
+  }
+}
