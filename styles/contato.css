@@ -66,12 +66,6 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
  
-
- .button:hover{
-    padding: 5px;
-
- }
- 
  
 
  .ranger_Principal{
@@ -89,7 +83,8 @@
  footer{
     background-color: #07226e;
     position: relative;
-    margin-top: -81px;
+    margin-top: -55px;
+    padding: 8px;
     display: flex;
     align-items: center;
  
