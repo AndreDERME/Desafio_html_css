@@ -17,10 +17,10 @@
 }
 
  .Logo_acima{
-    position: absolute;
-    width: 166px;
-    height: 73px;
-    margin-left: 20px;
+  position: fixed;
+  width: 166px;
+  height: 73px;
+  margin-left: 20px;
  }
 
  .link{
