@@ -116,10 +116,8 @@
  
  @media (max-width: 1024px) {
   .header_container{
-     align-items: center;
-      text-align: center;
-    
-  }
+     padding: 0 15px;
+}
   footer {
     max-width: 100%;
   }
@@ -129,13 +127,11 @@
     justify-content: center;
      
   }
-
-  .rodape_site {
-    display: flex;
-     justify-content: center;
-   
   
-     padding: 40px;
+
+  footer {
+     max-width: 100%;
+     width: 100%;
       gap: 15px;
   }
 
@@ -154,9 +150,10 @@
 
   
 
-  .menu_navegacao {
+  .link{
       flex-direction: column;
       text-align: center;
+      position: relative;
       gap: 15px;
   }
   
@@ -173,7 +170,7 @@
   }
 
   .ford {
-    margin-top: 10px;
+    
    
   }
 }
