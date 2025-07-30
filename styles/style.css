@@ -110,6 +110,9 @@
    padding: 5%;
 
  }
+
+
+ 
  @media (max-width: 1024px) {
   .header_container{
      flex-direction: column;
@@ -138,14 +141,21 @@
 
  @media (max-width: 768px) {
   .header_container {
-      justify-content: center;
+    display: flex;  
+    justify-content: center;
       gap: 10px;
   }
+
+  
 
   .menu_navegacao {
       flex-direction: column;
       text-align: center;
       gap: 15px;
+  }
+  
+  .ranger_Principal{
+    max-width: 80%;
   }
 
   .rodape_site {
