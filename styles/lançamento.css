@@ -9,27 +9,34 @@
     overflow: hidden;
 }
 
- .Logo_acima{
-  position: fixed;
-  width: 166px;
-  height: 73px;
-  margin-left: 20px;
+.senhor_conteiner{
+  max-width: 1500px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  flex-wrap: wrap;
+ 
+}
+
+ .logo_acima{
+  width: 150px;
+  
  }
 
  .link{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 35px;
-   margin-top: 58px;
-   padding-right: 40px;
-   font-family: 'Lucida Sans', sans-serif;
- 
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  gap: 60px;
+   
  }
- 
  footer{
     background-color: #1b357e;
     margin-top: 50px;
+    padding: 15px;
     display: flex;
     align-items: center;
    
