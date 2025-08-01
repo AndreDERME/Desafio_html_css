@@ -6,7 +6,7 @@
  }
   body{
     background-color: white;
-    overflow: hidden;
+    
 }
 
 .senhor_conteiner{
@@ -57,12 +57,32 @@
    margin-left: 92%;
 
  }
- .paragrafo{
-   display: flex;
-   justify-content: center;
-   margin-top: 20px;
-   
+ 
+  
+ .mae_conteiner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+
  }
+
+ button {
+  
+  margin-top: 10px;
+  background-color:  #2c72cc; 
+  border: none;              
+  padding: 15px 15px;
+  width: 250px;      
+  border-radius: 8px;        
+  font-size: 10px;           
+  cursor: pointer;           
+  text-align: center;   
+  margin-left: 140px;     
+ 
+}
+ 
+
 
  .letra {
    color: aliceblue;
