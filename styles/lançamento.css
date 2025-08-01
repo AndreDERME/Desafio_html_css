@@ -81,9 +81,16 @@
   margin-left: 140px;     
  
 }
+ .video_principal{
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 10vh;
+ }
 
 .button{
-  margin-left: 50%;
+  margin-left: 45%;
+  margin-top: 5vh;
 }
  
 
