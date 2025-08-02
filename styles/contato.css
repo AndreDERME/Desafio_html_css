@@ -155,7 +155,7 @@
 
  }
 
- @media (max-width: 1220px) {
+ @media (max-width: 1024px) {
   .header_container{
      padding: 0 15px;
 }
@@ -166,18 +166,82 @@
     align-items: center;
      
   }
-  
-  .ranger_Principal{
-    width: 70% ;
+  footer{
+    max-width: 100%;
   }
   
+  .ranger_Principal{
+    width: 30% ;
+  }
+  
+  .formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 70%;
+  }
+
+  .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   footer {
-     max-width: 100%;
+   max-width: 100%;
      width: 100%;
       gap: 15px;
   }
 
   
+}
+
+ @media (max-width: 768px) {
+  .header_container {
+    display: flex;  
+    justify-content: center;
+      gap: 80px;
+  }
+
+  
+
+  .link{
+      flex-direction: column;
+      text-align: center;
+      position: relative;
+      gap: 15px;
+  }
+  
+  .ranger_Principal{
+    max-width: 80%;
+  }
+
+  .rodape_site {
+      
+     flex-direction: column;
+     text-align: center;
+      max-width: 100%;
+      gap: 15px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .link {
+    flex-direction: column;
+    margin-bottom: auto;
+
+  }
+
+  .rodape_site {
+      max-width: 100%;
+     font-size: 1em;
+  }
+
+  .ford {
+    height: auto;
+   
+  }
 }
 
