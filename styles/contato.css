@@ -155,3 +155,32 @@
 
  }
 
+ @media (max-width: 1220px) {
+  .header_container{
+     padding: 0 15px;
+}
+  footer {
+    max-width: 100%;
+  }
+
+  .link{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+     
+  }
+  
+  .ranger_Principal{
+    width: 70% ;
+  }
+  
+
+  footer {
+     max-width: 100%;
+     width: 100%;
+      gap: 15px;
+  }
+
+  
+}
+
