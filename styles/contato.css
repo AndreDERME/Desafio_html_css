@@ -159,10 +159,7 @@
   .header_container{
      padding: 0 15px;
 }
-  footer {
-    max-width: 100%;
-  }
-
+ 
   .link{
     display: flex;  
     justify-content: center;
