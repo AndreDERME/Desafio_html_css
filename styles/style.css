@@ -11,10 +11,18 @@
     box-sizing: border-box;
     
  }
+ html,body{
+  height: 100%;
+ }
  
  body{
     background-color: var(--cor--primaria);
+    display: flex;
+    flex-direction: column;
   
+ }
+ .main{
+  flex: 1;
  }
 
 
@@ -121,7 +129,7 @@
  }
 
  
- @media (max-width: 1220px) {
+ @media (max-width: 1224px) {
   .header_container{
      padding: 0 15px;
 }
