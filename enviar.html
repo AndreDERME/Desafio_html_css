@@ -1,13 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Compra Realizada</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #007bff, #00c6ff);
+      font-family: Arial, sans-serif;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .mensagem {
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 2px solid white;
+      border-radius: 12px;
+      padding: 40px;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    }
+
+    .mensagem h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    .mensagem p {
+      font-size: 1.2em;
+    }
+
+    .mensagem a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: white;
+      color: #007bff;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+
+    .mensagem a:hover {
+      background-color: #e0e0e0;
+    }
+  </style>
 </head>
 <body>
-    <div class="">
-        <h1>Resposta enviada com sucesso</h1>
-    </div>
+  <div class="mensagem">
+    <h1>Compra realizada com sucesso!</h1>
+    <p>Obrigado por confiar em nós. Seu pedido foi confirmado e está sendo processado.</p>
+    <a href="index.html">Voltar para a página inicial</a>
+  </div>
 </body>
 </html>
