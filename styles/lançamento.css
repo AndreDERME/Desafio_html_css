@@ -144,3 +144,94 @@
 
  }
 
+@media (max-width: 1220px) {
+  .header_container{
+     padding: 0 15px;
+}
+  footer {
+    max-width: 100%;
+  }
+
+  .link{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+     
+  }
+  
+  .video_lancamento{
+    width: 50% ;
+  }
+  
+
+  footer {
+     max-width: 100%;
+     width: 100%;
+      gap: 15px;
+  }
+
+  
+}
+
+ @media (max-width: 768px) {
+  .header_container {
+    display: flex;  
+    justify-content: center;
+      gap: 80px;
+  }
+
+  
+
+  .link{
+      flex-direction: column;
+      text-align: center;
+      position: relative;
+      gap: 15px;
+  }
+  
+  .video_lancamento{
+    max-width: 40%;
+  }
+
+  .mae_conteiner{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rodape_site {
+      
+     flex-direction: column;
+     text-align: center;
+      max-width: 100%;
+      gap: 15px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .link {
+    flex-direction: column;
+    margin-bottom: auto;
+
+  }
+
+  .video_lancamento{
+    display: block;
+    text-align: center;
+    margin: auto;
+    height: 300px;
+    width: 200px;
+  }
+
+  .rodape_site {
+      max-width: 100%;
+      width: 100%;
+     font-size: 1em;
+  }
+
+  .ford {
+    height: auto;
+   
+  }
+}
