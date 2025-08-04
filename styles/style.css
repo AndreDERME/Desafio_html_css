@@ -39,11 +39,14 @@
    justify-content: space-between;
    padding: 0px 20px;
    flex-wrap: wrap;
+   box-shadow: 0 2px 4px rgb(0, 0, 0, 0.1);
+   max-width: 100%;
 
  }
 
  .logo_acima {
    width: 150px;
+   
 
  }
 
@@ -61,6 +64,7 @@
    text-align: center;
    margin: auto;
    margin-top: 10vh;
+   box-shadow: 0 4px 8px rgba(3, 3, 3, 0.986);
 
  }
 
@@ -204,6 +208,10 @@
    .rodape_site {
      max-width: 100%;
      font-size: 1em;
+   }
+
+   .ranger_Principal{
+    max-width: 100%;
    }
 
    .ford {
