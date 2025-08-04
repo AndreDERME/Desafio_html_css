@@ -1,83 +1,87 @@
- :root{
+ :root {
    --cor--primaria: white;
-   --cor--secundaria:#1b357e;
-   --cor--terciaria:rgb(7, 114, 185);
+   --cor--secundaria: #1b357e;
+   --cor--terciaria: rgb(7, 114, 185);
    --cor---quarta: rgb(7, 114, 185);
  }
- 
- *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
- }
- html,body{
-  height: 100%;
- }
- 
- body{
-    background-color: var(--cor--primaria);
-    display: flex;
-    flex-direction: column;
-  
- }
- .main{
-  flex: 1;
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
  }
 
-
-
- .senhor_conteiner{
-  max-width: 1500px;
-  margin: 0 auto;
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0px 20px;
-  flex-wrap: wrap;
- 
-}
-
- .logo_acima{
-  width: 150px;
-  
+ html,
+ body {
+   height: 100%;
  }
 
- .link{
-  display: flex;
-  justify-content: center;
-  flex-grow: 1;
-  gap: 60px;
-   
+ body {
+   background-color: var(--cor--primaria);
+   display: flex;
+   flex-direction: column;
+
+ }
+
+ .main {
+   flex: 1;
  }
 
 
- .ranger_Principal{
+
+ .senhor_conteiner {
+   max-width: 1500px;
+   margin: 0 auto;
+   margin-top: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0px 20px;
+   flex-wrap: wrap;
+
+ }
+
+ .logo_acima {
+   width: 150px;
+
+ }
+
+ .link {
+   display: flex;
+   justify-content: center;
+   flex-grow: 1;
+   gap: 60px;
+
+ }
+
+
+ .ranger_Principal {
    display: block;
    text-align: center;
    margin: auto;
    margin-top: 10vh;
-   
+
  }
 
- footer{
-    background-color: var(--cor--secundaria);
-    margin-top: 38px;
-    display: flex;
-    align-items: center;
-    max-width: 100%;
-    padding: 15px;
-   
+ footer {
+   background-color: var(--cor--secundaria);
+   margin-top: 38px;
+   display: flex;
+   align-items: center;
+   max-width: 100%;
+   padding: 15px;
+
  }
 
- #logo_abaixo{
+ #logo_abaixo {
 
-    width: 34px;
-    height: 26px;
-    
+   width: 34px;
+   height: 26px;
+
  }
- .ford{
+
+ .ford {
    position: absolute;
    margin-top: 10px;
    width: 70px;
@@ -85,124 +89,125 @@
    margin-left: 92%;
 
  }
- 
 
- .paragrafo{
+
+ .paragrafo {
    margin-left: 40%;
    margin-top: 20px;
-   
+
  }
 
  .letra {
    color: var(--cor--primaria);
    margin: 20px;
-   
-}
- 
- .casa{
-   text-decoration: none;
-   color: var(--cor---quarta);
- }
- 
- .casa:hover{
-   padding: 5%;
- }
-
- .contat{
-   text-decoration: none;
-   color: var(--cor---quarta);
 
  }
 
- .contat:hover{
-   padding: 5%;
- }
-  
- .lança{
+ .casa {
    text-decoration: none;
    color: var(--cor---quarta);
  }
 
- .lança:hover{
+ .casa:hover {
+   padding: 5%;
+ }
+
+ .contat {
+   text-decoration: none;
+   color: var(--cor---quarta);
+
+ }
+
+ .contat:hover {
+   padding: 5%;
+ }
+
+ .lança {
+   text-decoration: none;
+   color: var(--cor---quarta);
+ }
+
+ .lança:hover {
    padding: 5%;
 
  }
 
- 
+
  @media (max-width: 1224px) {
-  .header_container{
+   .header_container {
      padding: 0 15px;
-}
-  footer {
-    max-width: 100%;
-  }
+   }
 
-  .link{
-    display: flex;  
-    justify-content: center;
-    align-items: center;
-     
-  }
-  
-  .ranger_Principal{
-    width: 70% ;
-  }
-  
+   footer {
+     max-width: 100%;
+   }
 
-  footer {
+   .link {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+   }
+
+   .ranger_Principal {
+     width: 70%;
+   }
+
+
+   footer {
      max-width: 100%;
      width: 100%;
-      gap: 15px;
-  }
+     gap: 15px;
+   }
 
-  
-}
+
+ }
 
  @media (max-width: 768px) {
-  .header_container {
-    display: flex;  
-    justify-content: center;
-      gap: 80px;
-  }
+   .header_container {
+     display: flex;
+     justify-content: center;
+     gap: 80px;
+   }
 
-  
 
-  .link{
-      flex-direction: column;
-      text-align: center;
-      position: relative;
-      gap: 15px;
-  }
-  
-  .ranger_Principal{
-    max-width: 80%;
-  }
 
-  .rodape_site {
-      
+   .link {
      flex-direction: column;
      text-align: center;
-      max-width: 100%;
-      gap: 15px;
-  }
+     position: relative;
+     gap: 15px;
+   }
 
-}
+   .ranger_Principal {
+     max-width: 80%;
+   }
 
-@media (max-width: 480px) {
+   .rodape_site {
 
-  .link {
-    flex-direction: column;
-    margin-bottom: auto;
+     flex-direction: column;
+     text-align: center;
+     max-width: 100%;
+     gap: 15px;
+   }
 
-  }
+ }
 
-  .rodape_site {
-      max-width: 100%;
+ @media (max-width: 480px) {
+
+   .link {
+     flex-direction: column;
+     margin-bottom: auto;
+
+   }
+
+   .rodape_site {
+     max-width: 100%;
      font-size: 1em;
-  }
+   }
 
-  .ford {
-    height: auto;
-   
-  }
-}
+   .ford {
+     height: auto;
+
+   }
+ }
