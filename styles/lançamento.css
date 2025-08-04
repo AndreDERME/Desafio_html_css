@@ -2,13 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
- }
-  body{
-    background-color: white;
-    
 }
-
+  html,
+  body {
+      height: 100%;
+    }
+   
+    body {
+      background-color: var(--cor--primaria);
+      display: flex;
+      flex-direction: column;
+   
+    }
+   
+    .main {
+      flex: 1;
+    }
+   
 .senhor_conteiner{
   max-width: 1500px;
   margin: 0 auto;
@@ -59,13 +69,13 @@
  }
  
   
- .mae_conteiner{
+ .pai_de_todos{
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 60px;
-
+  align-items: center;
  }
+
+ 
 
  button {
   margin-top: 10px;
@@ -161,8 +171,15 @@
   
   .video_lancamento{
     width: 50% ;
+    display: block;
+    text-align: center;
+    margin: auto;
   }
-  
+
+  .pai_de_todos{
+    display: flex;
+    flex-direction: column;
+  }
 
   footer {
      max-width: 100%;
