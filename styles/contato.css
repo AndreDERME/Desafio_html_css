@@ -41,6 +41,10 @@
  
 }
 
+.copy{
+  color: aliceblue;
+}
+
  .logo_acima{
   width: 150px;
   
@@ -248,8 +252,7 @@
   }
 
   .ford {
-      position: static; 
-      margin: 15px auto; 
+      max-width: 0;
   }
 }
 
@@ -265,6 +268,10 @@
 
   .link {
       gap: 15px;
+  }
+
+  .ford{
+    max-width: 0;
   }
 }
 
