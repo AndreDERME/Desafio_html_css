@@ -57,6 +57,7 @@
 
  .copy{
   color: aliceblue;
+  gap: 15px;
  }
 
  #logo_abaixo{
@@ -217,6 +218,12 @@
 .logo_acima{
   position: static;
   max-width: 20%;
+}
+
+.button{
+  display: block;
+  text-align: center;
+  margin: auto;
 }
   .pai_de_todos {
       flex-direction: column;
