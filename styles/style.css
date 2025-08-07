@@ -199,23 +199,34 @@
 
  @media (max-width: 480px) {
 
+  
    .link {
-     flex-direction: column;
+     flex-direction: row;
      margin-bottom: auto;
 
    }
 
-   .rodape_site {
-     max-width: 100%;
-     font-size: 1em;
-   }
 
-   .ranger_Principal{
-    max-width: 100%;
-   }
+   .rodape_site {
+     flex-direction: row;
+    gap: 15;
+    }
+
+    .logo_acima{
+      max-width: 30%;
+      justify-self: center;
+    }
+
+  
+
+   .paragrafo{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+  }
 
    .ford {
-     height: auto;
-
-   }
+    max-width: 0;
+}
  }
