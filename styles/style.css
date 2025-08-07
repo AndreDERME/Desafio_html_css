@@ -101,6 +101,10 @@
 
  }
 
+ .copy{
+  color: aliceblue;
+ }
+
  .letra {
    color: var(--cor--primaria);
    margin: 20px;
@@ -168,65 +172,62 @@
  }
 
  @media (max-width: 768px) {
-   .header_container {
-     display: flex;
-     justify-content: center;
-     gap: 80px;
-   }
-
-
-
-   .link {
-     flex-direction: column;
-     text-align: center;
-     position: relative;
-     gap: 15px;
-   }
-
-   .ranger_Principal {
-     max-width: 80%;
-   }
-
-   .rodape_site {
-
-     flex-direction: column;
-     text-align: center;
-     max-width: 100%;
-     gap: 15px;
-   }
-
- }
-
- @media (max-width: 480px) {
-
-  
-   .link {
-     flex-direction: row;
-     margin-bottom: auto;
-
-   }
-
-
-   .rodape_site {
-     flex-direction: row;
-    gap: 15;
-    }
-
-    .logo_acima{
-      max-width: 30%;
-      justify-self: center;
-    }
-
-  
-
-   .paragrafo{
-    display: block;
-    text-align: center;
-    margin: auto;
-    margin-top: 30px;
+  .senhor_conteiner { 
+      flex-direction: column; 
+      align-items: center;
+      gap: 20px; 
   }
 
-   .ford {
-    max-width: 0;
+  .link {
+      flex-direction: column; 
+      text-align: center;
+      position: relative;
+      gap: 15px;
+  }
+
+  .ranger_Principal {
+      max-width: 80%;
+  }
+
+  .rodape_site { 
+      flex-direction: column; 
+      text-align: center;
+      max-width: 100%;
+      gap: 15px;
+  }
+
+  .ford {
+      position: static; 
+      margin: 15px auto; 
+  }
+
+  .paragrafo {
+      margin-left: 0; 
+      text-align: center; 
+      padding: 0 15px; 
+  }
 }
- }
+
+@media (max-width: 480px) {
+  .senhor_conteiner {
+      gap: 10px; 
+  }
+
+  .logo_acima {
+      max-width: 30%; 
+  }
+
+  .rodape_site {
+      flex-direction: column; 
+      gap: 10px;
+  }
+
+
+  .ford {
+      max-width: 0;
+  }
+
+  .paragrafo {
+      margin-top: 20px;
+  }
+}
